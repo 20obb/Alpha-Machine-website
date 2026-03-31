@@ -1,16 +1,23 @@
-# React + Vite
+# Alpha-Machine Website (Production Build)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the production branch of the **Alpha-Machine Chess Engine** website. 
 
-Currently, two official plugins are available:
+> **ملاحظة هامة:** 
+> هذا المجلد يحتوي فقط على الملفات المجمّعة النهائية (Compiled Files) الجاهزة للعمل على المتصفح مباشرة. 
+> إذا كنت ترى هذا الملف، فهذا يعني أنك تتصفح النسخة والملفات التي يتعرف عليها (GitHub Pages) ليقوم بعرض الموقع للجميع بدون أخطاء.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 ما هو هذا الموقع؟ (What is this website?)
+هذا هو الموقع التعريفي الرسمي لمحرك الشطرنج **Alpha-Machine**. 
+تم تطوير واجهة هذا الموقع بالكامل باستخدام **React** و **Vite** بتصميم عصري (Premium Glassmorphism + 3D Hyper-realistic Aesthetics) باللونين الأبيض والأحمر الداكن.
 
-## React Compiler
+الهدف من عرض هذا الموقع هو توضيح الآتي:
+- **فلسفة وتوجه محرك Alpha-Machine:** الاعتماد على الحسابات الخوارزمية الرياضية الصارمة (بواسطة لغة C++ وهيكلية Bitboards) قبل الانتقال مستقبلاً للذكاء الاصطناعي والشبكات العصبية.
+- **السرعة وقوة الأداء:** استعراض إمكانيات المحرك (حيث وصل حالياً لحساب 1.6 مليون احتمال وتقييم في الثانية الواحدة).
+- **خريطة الطريق والمستقبل:** عرض الرؤية القادمة للمشروع، والتي تشمل إدراج بروتوكول UCI للعب التلقائي في المنصات العالمية، وذاكرة (Transposition Tables)، وبدء مرحلة تعلّم الآلة (Self-Play ML).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 كيفية النشر والتطوير
+هذه الملفات الحالية هنا (HTML, CSS, JS) هي النسخة المترجمة من الكود، وهي ملفات ثابتة (Static Assets).
+- **للمطور (لك):** لرفع أو تحديث الموقع على GitHub Pages، يجب عليك دائماً أخذ محتويات هذا المجلد فقط ورفعها لـ Branch الخاص بالموقع، لأن المتصفحات لا تفهم أكواد React بشكلها الأولي بل تفهم هذه الملفات المترجمة فقط.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*هذه الواجهة تم بناؤها لتعكس قوة وتعقيد المحرك الخوارزمي الذي يقف خلفها.*
