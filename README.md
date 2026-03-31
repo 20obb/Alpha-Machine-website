@@ -2,22 +2,22 @@
 
 Welcome to the production branch of the **Alpha-Machine Chess Engine** website. 
 
-> **ملاحظة هامة:** 
-> هذا المجلد يحتوي فقط على الملفات المجمّعة النهائية (Compiled Files) الجاهزة للعمل على المتصفح مباشرة. 
-> إذا كنت ترى هذا الملف، فهذا يعني أنك تتصفح النسخة والملفات التي يتعرف عليها (GitHub Pages) ليقوم بعرض الموقع للجميع بدون أخطاء.
+> **Important Note:** 
+> This directory contains only the statically compiled files ready for deployment. If you are viewing this file, you are looking at the final optimized web assets that GitHub Pages uses to serve the live website natively.
 
-## 🌟 ما هو هذا الموقع؟ (What is this website?)
-هذا هو الموقع التعريفي الرسمي لمحرك الشطرنج **Alpha-Machine**. 
-تم تطوير واجهة هذا الموقع بالكامل باستخدام **React** و **Vite** بتصميم عصري (Premium Glassmorphism + 3D Hyper-realistic Aesthetics) باللونين الأبيض والأحمر الداكن.
+## 🌟 What is this website?
+This is the official promotional landing page for the **Alpha-Machine** chess engine.
+It was developed entirely using **React** and **Vite** and features a modern, premium design (Glassmorphism + 3D Hyper-realistic Aesthetics) utilizing a crisp white and dark red color scheme.
 
-الهدف من عرض هذا الموقع هو توضيح الآتي:
-- **فلسفة وتوجه محرك Alpha-Machine:** الاعتماد على الحسابات الخوارزمية الرياضية الصارمة (بواسطة لغة C++ وهيكلية Bitboards) قبل الانتقال مستقبلاً للذكاء الاصطناعي والشبكات العصبية.
-- **السرعة وقوة الأداء:** استعراض إمكانيات المحرك (حيث وصل حالياً لحساب 1.6 مليون احتمال وتقييم في الثانية الواحدة).
-- **خريطة الطريق والمستقبل:** عرض الرؤية القادمة للمشروع، والتي تشمل إدراج بروتوكول UCI للعب التلقائي في المنصات العالمية، وذاكرة (Transposition Tables)، وبدء مرحلة تعلّم الآلة (Self-Play ML).
+The primary goal of this site is to highlight:
+- **Project Philosophy:** Relying on strict algorithmic calculations (C++ Bitboards & Alpha-Beta Search) to ensure mathematical correctness before implementing probabilistic Deep Learning networks.
+- **Engine Performance:** Showcasing the engine's velocity capabilities (currently hitting 1.6 Million nodes/second evaluations).
+- **Future Vision:** Detailing the roadmap for the engine, including UCI Protocol integration, massive memory caching (Transposition Tables), and self-play machine learning.
 
-## 🚀 كيفية النشر والتطوير
-هذه الملفات الحالية هنا (HTML, CSS, JS) هي النسخة المترجمة من الكود، وهي ملفات ثابتة (Static Assets).
-- **للمطور (لك):** لرفع أو تحديث الموقع على GitHub Pages، يجب عليك دائماً أخذ محتويات هذا المجلد فقط ورفعها لـ Branch الخاص بالموقع، لأن المتصفحات لا تفهم أكواد React بشكلها الأولي بل تفهم هذه الملفات المترجمة فقط.
+## 🚀 Deployment & Usage
+These files (HTML, CSS, JS) do not require a complex local server to run—they are pure static assets.
+- **To Deploy to GitHub Pages:** Ensure you only push the contents of this `dist` folder to your live deployment branch on GitHub. Note that traditional browsers cannot parse raw React source code natively, which is why everything must be compiled here first.
+- The repository `base path` has been automatically configured to align with the URL structure `https://20obb.github.io/Alpha-Machine-website/`.
 
 ---
-*هذه الواجهة تم بناؤها لتعكس قوة وتعقيد المحرك الخوارزمي الذي يقف خلفها.*
+*This web interface was specifically engineered to visually reflect the incredible raw computational power of the algorithmic engine running behind it.*
